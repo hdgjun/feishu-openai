@@ -2,7 +2,7 @@ module start-feishubot
 
 go 1.18
 
-require github.com/larksuite/oapi-sdk-go/v3 v3.0.14
+require github.com/larksuite/oapi-sdk-go/v3 v3.1.1-beta.3
 
 require (
 	github.com/duke-git/lancet/v2 v2.1.17
@@ -11,7 +11,7 @@ require (
 	github.com/larksuite/oapi-sdk-gin v1.0.0
 	github.com/pandodao/tokenizer-go v0.2.0
 	github.com/patrickmn/go-cache v2.1.0+incompatible
-	github.com/pion/opus v0.0.0-20230123082803-1052c3e89e58
+	github.com/pion/opus v0.0.0-20240409032234-867e82f70014
 	github.com/sashabaranov/go-openai v1.13.0
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/pflag v1.0.5
